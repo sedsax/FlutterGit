@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kod_tasarim/login_anasayfa.dart';
 import 'package:kod_tasarim/sayfa2.dart';
 
 void main() {
@@ -18,7 +19,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
       ),
       home: Sayfa1(baslik: 'Flutter Proje Sayfa1'),
-      routes: { '/sayfa2':(context) => (Sayfa2())},
+      routes: { '/sayfa2':(context) => (Sayfa2()),
+        '/loginAnasayfa':(context) => (LoginAnasayfa())
+      },
     );
   }
 }
@@ -109,11 +112,6 @@ class _Sayfa1State extends State<Sayfa1> {
               ),
               SizedBox(height: 30,),
               Text(
-                  'SAYAÇ',
-                  style: Theme.of(context).textTheme.headline5,
-              ),
-              SizedBox(height: 30,),
-              Text(
                 'Sayacın Değeri: ${sayac}',
                 style: Theme.of(context).textTheme.headline6,
               ),
@@ -139,6 +137,12 @@ class _Sayfa1State extends State<Sayfa1> {
                     Navigator.pushNamed(context, '/sayfa2');
                   }, 
                   child: Text("Sayfa2")
+              ),
+              ElevatedButton(
+                  onPressed: (){
+                    Navigator.pushNamed(context, '/loginAnasayfa');
+                  },
+                  child: Text("Login Anasayfa"),
               ),
             ],
           ),
