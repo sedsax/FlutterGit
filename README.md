@@ -1,6 +1,16 @@
-# kod_tasarim
+#### Faydalandığım linkler:
 
-A new Flutter project.
+[Flutter: Login Page UI](https://www.youtube.com/watch?v=PqZgkU_SZAE&ab_channel=LirsTechTips)
+[Flutter Tutorial For Dummies](https://www.youtube.com/watch?v=3XipSv2CWiQ&ab_channel=FlutterMapp)
+[A recap and 2 screen sign in/up flutter app](https://flutterawesome.com/a-recap-and-2-screen-sign-in-up-flutter-app/)
+
+ 
+![alt text](https://github.com/sedsax/FlutterGit/blob/master/log1.PNG)
+![alt text](https://github.com/sedsax/FlutterGit/blob/master/log2.PNG)
+![alt text](https://github.com/sedsax/FlutterGit/blob/master/log3.PNG)
+
+
+A new Flutter project about Login Page
 
 ## Getting Started
 
